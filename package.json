@@ -1,8 +1,11 @@
 {
   "name": "xiaozhong-server",
   "description": "Node.js Static Web Server",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "main": "src/app.js",
+  "bin": {
+    "xiaozhongserver": "bin/server"
+  },
   "private": false,
   "scripts": {
     "lint": "eslint .",
@@ -10,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/izhaong/anyServer.git"
+    "url": "git+https://github.com/izhaong/xiaozhong-server.git"
   },
   "keywords": [
     "static",
@@ -19,9 +22,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/izhaong/anyServer/issues"
+    "url": "https://github.com/izhaong/xiaozhong-server/issues"
   },
-  "homepage": "https://github.com/izhaong/anyServer#readme",
+  "homepage": "https://github.com/izhaong/xiaozhong-server#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.2",
     "eslint": "^6.0.1",
